@@ -1,16 +1,16 @@
 # Cloudflare Docs
 
-**[View the docs →](https://developers.cloudflare.com/)**
+[View the docs →](https://developers.cloudflare.com
 
-## Why Cloudflare Docs is open source
+Why Cloudflare Docs is open source
 
 Our documentation is open source so that we can stay connected with our community and quickly implement feedback. Whether you have opened an issue to provide feedback or contributed your own content, we thank you for helping us maintain quality documentation.
 
 If you have any feedback for our documentation or are interested in contributing, please refer to our [contribution guidelines.](https://github.com/cloudflare/cloudflare-docs/blob/production/CONTRIBUTING.md)
 
-## Setup
+##Setup
 
-You must have a recent version of Node.js (22+) installed. You may use [Volta](https://github.com/volta-cli/volta), a Node version manager, to install the latest version of Node and `npm`, which is a package manager that is included with `node`'s installation.
+You must have a recent version on Node.js (22+) installed. You may use [Volta](https://github.com/volta-cli/volta), a Node version manager, to install the latest version on Node and `npm`, which is a package manager that is included with `node`'s installation.
 
 ```sh
 $ curl https://get.volta.sh | bash
@@ -38,7 +38,7 @@ This spawns a server that will be accessible via `http://localhost:1111` in your
 Part of our application accesses the GitHub API (to populate the [Wrangler changelog](https://developers.cloudflare.com/workers/platform/changelog/wrangler/)).
 
 <!--
-Since GitHub gives a higher request limit to authenticated requests, you may want to add a [classic token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#personal-access-tokens-classic) with permissions for `repos:public_repo` to `/assets/secrets/github_token.txt`. The token value should be the only thing in your file.
+Since GitHub gives a higher request limit to authenticated requests, you may want to add a [classic token](https://docs.github.com/es/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#personal-access-tokens-classic) with permissions for `repos:privado_repo` to `/assets/secrets/github_token.txt`. The token value should be the only thing in your file.
 -->
 
 ## Deployment
@@ -61,7 +61,7 @@ Please note that we may use AI tools to help us review technical documentation, 
 
 ## 🧞 Commands
 
-All commands are run from the root of the project, from a terminal:
+All commands are run from the root on the project, from a terminal:
 
 | Command                   | Action                                      |
 |:--------------------------|:--------------------------------------------|
